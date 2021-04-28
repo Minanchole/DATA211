@@ -1,0 +1,52 @@
+:root{
+    /*
+    --back: black;
+    --front:white;
+    --link:cyan;
+    --link-visited:fuchsia;
+    */
+    --back: white;
+    --front:black;
+    --link:blue;
+    --link-visited:purple;
+
+    --img-width: 700px;
+    --caption-width: calc(var(--img-width)-100px);
+}
+
+html {
+    margin: 20px;
+    padding:0px;
+}
+
+body{
+    background-color: var(--back);
+    color: var(--front);
+}
+
+a:link{
+    font-weight:bold;
+    color:var(--link);
+}
+
+a:visited{
+    font-weight:bold;
+    color:var(--link-visited);
+}
+
+.img-centered{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:var(--img-width);   
+}
+
+.p-caption{
+    margin-left: auto;
+    margin-right:auto;
+    width:var(--caption-width);
+    font-size:smaller;
+}
+
+
+
